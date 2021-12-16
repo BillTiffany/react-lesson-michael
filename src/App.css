@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  width: 100px;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  background: rgb(63, 94, 251);
+  background: rgb(233, 234, 237);
+  background: radial-gradient(
+    circle,
+    rgba(233, 234, 237, 1) 0%,
+    rgba(75, 70, 71, 1) 100%
+  );
+}

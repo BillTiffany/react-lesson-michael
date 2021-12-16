@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        THIS IS WHERE A HEADER WOULD GO...{" "}
+        <img
+          src="https://c.tenor.com/N2hV1al2rjcAAAAC/if-i-had-one-angry.gif"
+          alt="if I had one"
+        ></img>
         <p>
+          <button className="App-button">Click me</button>
+          <br />
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -15,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          YOU ARE A BEAUTIFUL AND UNIQUE SNOWFLAKE
         </a>
       </header>
     </div>
